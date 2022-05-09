@@ -1,4 +1,4 @@
 *.cache
 *.tmp
-bin/
-obj/
+bin
+obj
