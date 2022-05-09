@@ -13,7 +13,7 @@ namespace FirstPrj
     class UnitTest1
     {
 
-        IWebDriver driver = new ChromeDriver(@"/Users/kostiantyn.potapov/Projects/FirstPrj/bin/Debug");
+        IWebDriver driver = new ChromeDriver(@"/Users/kostiantyn.potapov/Projects/selenium/bin/Debug");
 
         [SetUp]
         public void Initialize()
