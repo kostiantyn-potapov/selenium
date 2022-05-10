@@ -6,7 +6,7 @@ namespace FirstPrj
 {
     public class MainPage
     {
-        public MainPage(IWebDriver driver) : base(driver)
+        public MainPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
         }
@@ -16,7 +16,7 @@ namespace FirstPrj
 
         public void New()
         {
-            WaitHelpers.WaitUntilElementClickable(SignIn, 20);
+            new WaitHelpers().WaitUntilElementClickable(SignIn);
         }
     }
 }
