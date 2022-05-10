@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kostiantyn.potapov/Projects/FirstPrj/FirstPrj.csproj": {}
+    "/Users/kostiantyn.potapov/Projects/selenium/FirstPrj.csproj": {}
   },
   "projects": {
-    "/Users/kostiantyn.potapov/Projects/FirstPrj/FirstPrj.csproj": {
+    "/Users/kostiantyn.potapov/Projects/selenium/FirstPrj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kostiantyn.potapov/Projects/FirstPrj/FirstPrj.csproj",
+        "projectUniqueName": "/Users/kostiantyn.potapov/Projects/selenium/FirstPrj.csproj",
         "projectName": "FirstPrj",
-        "projectPath": "/Users/kostiantyn.potapov/Projects/FirstPrj/FirstPrj.csproj",
+        "projectPath": "/Users/kostiantyn.potapov/Projects/selenium/FirstPrj.csproj",
         "packagesPath": "/Users/kostiantyn.potapov/.nuget/packages/",
-        "outputPath": "/Users/kostiantyn.potapov/Projects/FirstPrj/obj/",
+        "outputPath": "/Users/kostiantyn.potapov/Projects/selenium/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kostiantyn.potapov/.config/NuGet/NuGet.Config"
@@ -38,6 +38,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.3, )"
@@ -80,7 +88,11 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[99.0.4844.5100, )"
+              "version": "[101.0.4951.4100, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             },
             "coverlet.collector": {
               "target": "Package",

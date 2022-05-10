@@ -19,6 +19,7 @@ namespace FirstPrj
         public void Initialize()
         {
             driver.Navigate().GoToUrl("http://altium.com");
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
         }
 
         [Test]
@@ -30,6 +31,7 @@ namespace FirstPrj
             
             // Wait for the required any element (I am waiting for Login button in fb)
             //IWebElement element = webdriver.FindElement(By.XPath("//*[contains(text(), 'Sign In')]"));
+
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
             var element1 = wait.Until(webdriver => webdriver.FindElement(By.XPath("//*[contains(text(), 'Sign In')]")));
 

@@ -19,6 +19,9 @@
     <PackageReference Include="NUnit.Runners" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="Selenium.Support" Version="4.1.0" />
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,5 +36,8 @@
     <None Remove="NUnit.Runners" />
     <None Remove="NUnit3TestAdapter" />
     <None Remove="Selenium.Support" />
+    <None Remove="DotNetSeleniumExtras.WaitHelpers" />
+    <None Remove="SeleniumExtras.WaitHelpers" />
+    <None Remove="DotNetSeleniumExtras.PageObjects" />
   </ItemGroup>
 </Project>

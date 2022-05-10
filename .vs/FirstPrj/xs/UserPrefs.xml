@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{89DD937C-7481-482D-B78B-70BDE91C9CE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.FirstPrj PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainPage.cs">
+    <Files>
+      <File FileName="SetMethods.cs" Line="27" Column="14" />
+      <File FileName="UnitTest1.cs" Line="34" Column="1" />
+      <File FileName="MainPage.cs" Line="14" Column="23" />
+      <File FileName="FreeTrialPage.cs" Line="7" Column="10" />
+      <File FileName="WaitHelper.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstPrj" expanded="True">
+            <Node name="FirstPrj" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="MainPage.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FirstPrj" expanded="True">
+            <Node name="FirstPrj" expanded="True">
+              <Node name="FirstPrj" expanded="True">
+                <Node name="UnitTest1" expanded="True">
+                  <Node name="FreeTrials" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
