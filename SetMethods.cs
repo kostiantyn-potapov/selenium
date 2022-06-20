@@ -7,36 +7,22 @@ namespace FirstPrj
     public class SetMethods
     {
         //Enter text
-        public static void EnterText(IWebDriver driver, string element, string value, string elementType)
+        public static void EnterText(IWebElement webElement, string value)
         {
-            if (elementType == "XPath")
-            {
-                driver.FindElement(By.XPath(element)).SendKeys(value);
-            }
-            if (elementType == "Id")
-            {
-                driver.FindElement(By.Id(element)).SendKeys(value);
-            }
+            webElement.SendKeys(value);
         }
         //Click into a button
-        public static void Click(IWebDriver driver, string element, string elementType)
+        public static void Click(IWebElement webElement)
         {
-            if (elementType == "XPath")
-            {
-                driver.FindElement(By.XPath(element)).Click();
-            }
+            //WaitHelpers waitHelpers = new WaitHelpers();
+            //waitHelpers.WaitUntilElementDisplayed(webElement, 20);
+            webElement.Click();
         }
         //Selecting a drop down control
-        public static void SelectDropdown(IWebDriver driver, string element, string value, string elementType)
+        public static void SelectDropdown(IWebElement webElement, string text)
         {
-            if (elementType == "XPath")
-            {
-                new SelectElement(driver.FindElement(By.XPath(element))).SelectByText(value);
-            }
-            if (elementType == "Id")
-            {
-                new SelectElement(driver.FindElement(By.Id(element))).SelectByText(value);
-            }
+            SelectElement selectElement = new SelectElement(webElement);
+            selectElement.SelectByText(text);
         }
     }
 }

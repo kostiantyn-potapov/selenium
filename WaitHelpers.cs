@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace FirstPrj
 {
@@ -208,6 +209,12 @@ namespace FirstPrj
         {
             new WebDriverWait(driver, TimeSpan.FromSeconds(30)).Until(
                 d => ((IJavaScriptExecutor)d).ExecuteScript("return document.readyState").Equals("complete"));
+        }
+
+        public void WaitElementToBeClickable(IWebElement webElement, int timeout)
+        {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeout));
+            wait.Until(ExpectedConditions.ElementToBeClickable(webElement));
         }
     }
 }
