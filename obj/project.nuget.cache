@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "60mK9kXp7ol3azGPR2WI14QYvoAXQn4kaLFVuxZ5pDoPWdJ08f/i1Yu9TKZS0Asoai2Q7KdhVdi5N9D80ZWSbA==",
+  "dgSpecHash": "KCIa1UDVFv8N2fEtW3ABtdo53ybaNqDkCmlnNEmqr3Oz5uFf3dKCg9lN7wsZt4k8wL1kOzeU86vR/pewiaJ4Rg==",
   "success": true,
   "projectFilePath": "/Users/kostiantyn.potapov/Projects/selenium/FirstPrj.csproj",
   "expectedPackageFiles": [
     "/Users/kostiantyn.potapov/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/kostiantyn.potapov/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "/Users/kostiantyn.potapov/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.0.1/dotnetseleniumextras.pageobjects.core.4.0.1.nupkg.sha512",
     "/Users/kostiantyn.potapov/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "/Users/kostiantyn.potapov/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",
     "/Users/kostiantyn.potapov/.nuget/packages/microsoft.net.test.sdk/16.9.4/microsoft.net.test.sdk.16.9.4.nupkg.sha512",

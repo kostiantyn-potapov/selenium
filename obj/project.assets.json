@@ -20,6 +20,18 @@
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
         }
       },
+      "DotNetSeleniumExtras.PageObjects.Core/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.1"
+        },
+        "compile": {
+          "lib/net5.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
       "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
         "dependencies": {
@@ -768,6 +780,21 @@
         "lib/net35/SeleniumExtras.PageObjects.dll",
         "lib/net40/SeleniumExtras.PageObjects.dll",
         "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.0.1": {
+      "sha512": "Hbhoy7+qnd9IeUh2S8s30ylmL6X7w2/za/pqzkHgBYwvvykIdJg3n3/pVe9Tdi/ccGS/eNOkkwSY9RSa/Y7Z0Q==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects.core/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "dotnetseleniumextras.pageobjects.core.4.0.1.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.core.nuspec",
+        "lib/net46/SeleniumExtras.PageObjects.dll",
+        "lib/net5.0/SeleniumExtras.PageObjects.dll",
         "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
       ]
     },
@@ -3043,6 +3070,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DotNetSeleniumExtras.PageObjects >= 3.11.0",
+      "DotNetSeleniumExtras.PageObjects.Core >= 4.0.1",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
@@ -3099,6 +3127,10 @@
           "DotNetSeleniumExtras.PageObjects": {
             "target": "Package",
             "version": "[3.11.0, )"
+          },
+          "DotNetSeleniumExtras.PageObjects.Core": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           },
           "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
