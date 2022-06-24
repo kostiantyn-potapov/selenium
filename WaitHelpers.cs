@@ -10,7 +10,12 @@ namespace FirstPrj
 {
     public class WaitHelpers
     {
-        protected IWebDriver driver;
+        private IWebDriver driver;
+
+        public WaitHelpers(IWebDriver webDriver)
+        {
+            driver = webDriver;
+        }
 
         public enum TimeSet
         {

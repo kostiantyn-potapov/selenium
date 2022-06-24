@@ -42,7 +42,11 @@ namespace FirstPrj
         {
             driver.Navigate().GoToUrl("https://www.altium.com/altium-trial-flow");
             FreeTrialPage freeTrialPage = new FreeTrialPage(driver);
-            freeTrialPage.ClickNoButton();
+            freeTrialPage.AnswerTheQuestions();
+            freeTrialPage.SwitchToFrame();
+            freeTrialPage.FillTheForm();
+            freeTrialPage.SwitchToDefault();
+            Thread.Sleep(5000);
         }
 
         [TearDown]

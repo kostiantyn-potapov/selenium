@@ -6,12 +6,13 @@ namespace FirstPrj
 {
     public class MainPage
     {
+        private WaitHelpers waitHelpers;
+
         public MainPage(IWebDriver driver)
         {
             PageFactory.InitElements(driver, this);
+            waitHelpers = new WaitHelpers(driver);
         }
-
-        WaitHelpers waitHelpers = new WaitHelpers();
 
         [FindsBy(How = How.XPath, Using = "//*[contains(text(), 'Sign In')]")]
         private IWebElement SignIn { get; set; }
@@ -19,7 +20,7 @@ namespace FirstPrj
         public void SignInButtonIsClicable()
         {
             //new WaitHelpers().WaitUntilElementClickable(SignIn);
-            waitHelpers.WaitUntilElementClickable(SignIn);
+            waitHelpers.WaitElementToBeClickable(SignIn, 20);
         }
     }
 }
